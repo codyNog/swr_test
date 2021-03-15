@@ -14,7 +14,8 @@
     "next": "^10.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "ress": "^3.0.0"
+    "ress": "^3.0.0",
+    "swr": "^0.5.3"
   },
   "scripts": {
     "dev": "next",
@@ -26,7 +27,8 @@
     "lint": "eslint --max-warnings=0 '**/*.tsx' '**/*.ts'",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "api:build": "aspida"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
