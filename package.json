@@ -4,11 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@aspida/axios": "^1.6.3",
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
     "@sentry/browser": "^6.2.2",
     "@sentry/node": "^6.2.2",
+    "axios": "^0.21.1",
     "next": "^10.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
