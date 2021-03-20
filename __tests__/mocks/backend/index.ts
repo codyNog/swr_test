@@ -2,7 +2,7 @@ import { Backend } from "~/domain/backend";
 import { ContentUseCase } from "~/domain/impl/Content";
 import { MessageUseCase } from "~/domain/impl/Message";
 import { UserUseCase } from "~/domain/impl/User";
-import { mockData } from "__tests__/mock/data";
+import { mockData } from "__tests__/mocks/data";
 
 const user: UserUseCase = {
   fetchUser: async () => mockData.user.user1,
@@ -17,7 +17,7 @@ const content: ContentUseCase = {
 };
 
 const message: MessageUseCase = {
-  fetchMessages: async () => []
+  fetchMessages: async () => mockData.message.messages
 };
 
 export const mockBackend: Backend = {
