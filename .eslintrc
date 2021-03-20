@@ -21,6 +21,9 @@
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "no-restricted-imports": ["warn", { "patterns": ["../*"] }],
+    "no-unused-vars": [
+      "off"
+    ],
     "@typescript-eslint/no-unused-vars": [
       "warn",
       {
