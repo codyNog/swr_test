@@ -6,9 +6,7 @@ export type Methods = {
   };
 
   put: {
-    reqBody: {
-      name: string;
-    };
+    reqBody: User;
 
     resBody: User;
   };

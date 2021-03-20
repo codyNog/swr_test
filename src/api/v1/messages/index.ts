@@ -1,4 +1,4 @@
-import { User } from "~/domain/entities/User";
+import { Message } from "~/domain/entities/Message";
 
 export type Methods = {
   get: {
@@ -6,6 +6,6 @@ export type Methods = {
       limit: number;
     };
 
-    resBody: User[];
+    resBody: Message[];
   };
 };
